@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+   
+}
+
+h1, h2{
+    color: black;
+    text-shadow: 2px 1px #9DACCD;
+    
+    
+
+}
+
+body{
+    background-image: url(imgss/papel\ fondo\ celeste.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.buscador{
+    background-color: #9DACCD;
+}
+
+.middle, .middle_jordan3 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .hombre:hover .image, .mujeres:hover .image, .jordan3:hover .image {
+    opacity: 0.3;
+  }
+  
+  .hombre:hover .middle, .mujeres:hover .middle, .jordan3:hover .middle {
+    opacity: 1;
+  }
+  
+  .textshop, .shopnow_jordan3 {
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-align: center;
+   
+  }
+
+  .mujeres, .hombre, .jordan_3 {
+    position: relative;
+
+  }
+
+
+  .image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .nav-link:hover {
+    color: #C8EAF4;
+    font-size: 14px;
+  }
+
+  .nav-link{
+    text-decoration: none;
+    color: black;
+}
